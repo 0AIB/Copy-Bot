@@ -7,7 +7,7 @@ if __name__ == "__main__":
     plugins = dict(
         root="bot/plugins"
     )
-    Bot = pyrogram.Client(
+    app = pyrogram.Client(
         "copybot",
         bot_token=TG_BOT_TOKEN,
         api_id=APP_ID,
@@ -15,4 +15,4 @@ if __name__ == "__main__":
         plugins=plugins
     )
 
-    
+    app.run
