@@ -1,10 +1,7 @@
 import os
 import pyrogram
 
-if bool(os.environ.get("ENV", False)):
-    from sample_config import Config
-else:
-    from config import Config
+from bot import API_HASH, TG_BOT_TOKEN, APP_ID 
 
 if __name__ == "__main__":
     plugins = dict(
@@ -12,9 +9,9 @@ if __name__ == "__main__":
     )
     Bot = pyrogram.Client(
         "copybot",
-        bot_token=Config.TG_BOT_TOKEN,
-        api_id=Config.APP_ID,
-        api_hash=Config.API_HASH,
+        bot_token=TG_BOT_TOKEN,
+        api_id=APP_ID,
+        api_hash=API_HASH,
         plugins=plugins
     )
 
