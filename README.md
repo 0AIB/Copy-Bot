@@ -21,7 +21,7 @@ CHANNEL_ID - Channel ID to copy medias (Don't forget to fix a prefix '-100')
 
 ### Deploying on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/m4mallu/copybot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/0AIB/Copy-Bot)
 
 ### Legendary Way:
 #### On Linux Or VPS:
