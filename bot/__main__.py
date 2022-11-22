@@ -1,5 +1,5 @@
 # @0AIB
-from .bot import Bot
+from bot.bot import Bot
 
 print("Bot Started! ✨")
     app.run()
